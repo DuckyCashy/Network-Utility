@@ -1,15 +1,15 @@
-# IPChecker CLI Tool
+# Network Utility CLI Tool
 
-A multi-threaded network diagnostics, scanning, and identification utility built natively in Python. This tool gives you insight into your local subnet architecture, profiles active devices by operating system type, and provides quick administrative configuration overrides for network adapters.
+A multi-threaded network diagnostics, scanning, and identification utility built natively in Python. This tool gives you insight into your local subnet architecture, profiles active devices by operating system type, and provides quick administrative configuration overrides for network adapters. (Formerly IPChecker)
 
 ---
 
 ## 🚀 Getting Started & Prerequisites
 
-To utilize all features of IPChecker, it must be executed inside a terminal session with administrative permissions.
+To utilize all features of Network Utility, it must be executed inside a terminal session with administrative permissions.
 
 * **Windows:** Right-click your Terminal/Command Prompt and select **"Run as Administrator"**.
-* **Linux/macOS:** Run the script prefixed with `sudo` (e.g., `sudo python ipchecker.py`).
+* **Linux/macOS:** Run the script prefixed with `sudo` (e.g., `sudo python ip_network.py`).
 
 If you forget, you can quickly run the built-in elevator using Option `[5]`.
 
@@ -17,7 +17,7 @@ If you forget, you can quickly run the built-in elevator using Option `[5]`.
 
 ## 🛠️ Detailed Option Guide & Descriptions
 
-### [1] Get Real Local IP
+### [1] Get Local IP
 * **Description:** Pinpoints your machine's actual primary IP address on the local network. Unlike static environment variable reads, it initializes a live low-overhead UDP dummy socket connection out to an external gateway to determine exactly which interface card is routing traffic.
 * **How to Use:** 1. Select Option `1`.
   2. The console will display your active assignment (e.g., `[SUCCESS] Local IP Found: 123.456.7.89`).
